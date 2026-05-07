@@ -7,7 +7,7 @@ canvas = tk.Canvas(window, width=500, height=400, bg="white")
 canvas.pack(fill="both", expand=True)
 
 canvas.create_rectangle(50, 50, 200, 150,
-outline="blacm", fill="yellow", width=2)
+outline="black", fill="yellow", width=2)
 
 canvas.create_oval(250, 50, 400, 180,
 outline="red", fill="pink", width=2)
